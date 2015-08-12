@@ -4,7 +4,7 @@ from flask import current_app
 
 from lemur.plugins.bases import IssuerPlugin
 import lemur_digicert as digicert
-
+from lemur_digicert import constants
 
 class DigicertIssuerPlugin(IssuerPlugin):
     title = 'Digicert'
