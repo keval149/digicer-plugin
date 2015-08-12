@@ -44,6 +44,6 @@ class DigicertIssuerPlugin(IssuerPlugin):
         :param options:
         :return:
         """
-#         role = {'username': '', 'password': '', 'name': 'verisign'}
-#             return constants.VERISIGN_ROOT, "", [role]
-        print "I am in create authority"
+        role = {'username': '', 'password': '', 'name': 'digicert'}
+        return constants.DIGICERT_ROOT, "", [role]
+
